@@ -1,0 +1,243 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.container {
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 960px;
+}
+
+.container1nopad {
+  margin: 0 auto;
+  width: 960px;
+}
+
+.harryimage {
+
+  width: 30%;
+  float: right;
+  border: 1px solid #000;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+
+
+}
+
+footer {
+  clear: both;
+}
+
+
+/*
+  ========================================
+  Typography
+  ========================================
+*/
+
+h1, h2, h4, h5, p {
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.page-title {
+  text-align: left;
+  font-weight: 100;
+  font-size: 40px;
+  margin-top: 10px;
+  color: #204156;
+}
+
+.header {
+  text-align: center;
+  font-weight: 100;
+}
+
+/*
+  ========================================
+  Buttons
+  ========================================
+*/
+
+.btn {
+  border-radius: 5px;
+  display: inline-block;
+  margin: 0;
+}
+.btn-alt {
+  border: 1px solid #dfe2e5;
+  padding: 10px 30px;
+}
+
+nav {
+  background-color: #FFF;
+  border-bottom: 1px solid #000;
+}
+
+nav li {
+  display: inline;
+  margin: 0;
+  padding: 0 10px;
+}
+
+nav ul {
+  display: inline;
+}
+
+.contact-btn {
+  float: right;
+}
+
+.contact-btn a {
+  cursor: pointer;
+  margin-right: 30px;
+  padding: 8px 18px;
+  border: 1px solid #204156;
+  position: relative;
+
+}
+
+.contact-btn a:active {
+  top: 2px;
+
+}
+
+nav a {
+  height: 60px;
+  line-height: 60px;
+  color: #204156;
+  text-decoration: none;
+}
+
+a {
+  color: #204156;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover, a:focus {
+  text-decoration: underline;
+  color: #204156;
+}
+
+/*
+  ========================================
+  Home
+  ========================================
+*/
+
+.hero {
+  padding: 22px 80px 22px 80px;
+}
+
+.bio {
+
+  margin: 0 auto;
+  float: left;
+  padding-top: 30px;
+
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-image: url('assets/Fishermanbackground.jpg');
+  background-position: center top;
+  background-size: cover;
+  margin: 0;
+}
+
+html, body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+#projects {
+
+
+  margin: 0 auto;
+  float: left;
+  padding-top: 20px;
+  clear: both;
+
+}
+
+#backtotop {
+  color: white;
+}
+
+
+
+
