@@ -60,33 +60,41 @@ table {
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
+/*
+.wrapper {
+height: auto;
+width: 1000px;
+margin: 0 auto;
+
+}
+*/
 .container {
   margin: 0 auto;
-  padding-left: 30px;
-  padding-right: 30px;
-  width: 960px;
-}
-
-.container1nopad {
-  margin: 0 auto;
-  width: 960px;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 60em;
+  diplay: flex;
+  flex-direction: row;
 }
 
 .harryimage {
 
-  width: 30%;
+  /*diplay: flex;
+  flex-direction: row;*/
+  width: 20%;
   float: right;
   border: 1px solid #000;
-  margin-left: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-left: .1em;
+  margin-top: .1em;
+  margin-bottom: .1em;
   border-radius: 50%;
-
 
 }
 
 footer {
   clear: both;
+  diplay: flex;
+  flex-direction: row;
 }
 
 
@@ -96,13 +104,23 @@ footer {
   ========================================
 */
 
-h1, h2, h4, h5, p {
-  margin-bottom: 20px;
+h2, h4, h5 {
+  margin-bottom: .03em;
+}
+
+p {
+  margin-bottom: .03em;
+  padding: 1em;
+}
+
+h1 {
+  margin: .4em;
+  padding: 1em;
 }
 
 h3 {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: .03em;
+  margin-bottom: .03em;
 }
 
 h2 {
@@ -111,11 +129,13 @@ h2 {
 }
 
 .page-title {
-  text-align: left;
   font-weight: 100;
-  font-size: 40px;
-  margin-top: 10px;
+  font-size: 2.5em;
+  padding: .02em;
   color: #204156;
+  diplay: flex;
+  flex-direction: row;
+  justify-content: flex-start;
 }
 
 .header {
@@ -129,39 +149,14 @@ h2 {
   ========================================
 */
 
-.btn {
-  border-radius: 5px;
-  display: inline-block;
-  margin: 0;
-}
-.btn-alt {
-  border: 1px solid #dfe2e5;
-  padding: 10px 30px;
-}
-
-nav {
-  background-color: #FFF;
-  border-bottom: 1px solid #000;
-}
-
-nav li {
-  display: inline;
-  margin: 0;
-  padding: 0 10px;
-}
-
-nav ul {
-  display: inline;
-}
-
 .contact-btn {
   float: right;
 }
 
 .contact-btn a {
   cursor: pointer;
-  margin-right: 30px;
-  padding: 8px 18px;
+  margin-right: .05em;
+  padding: .3em .4em;
   border: 1px solid #204156;
   position: relative;
 
@@ -172,9 +167,30 @@ nav ul {
 
 }
 
+nav {
+  background-color: #FFF;
+  border-bottom: 1px solid #000;
+  diplay: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 1em;
+  padding: .5em;
+
+}
+
+nav li {
+  display: inline;
+  margin: 1em;
+  padding: .01em;
+}
+
+nav ul {
+  display: inline;
+}
+
 nav a {
-  height: 60px;
-  line-height: 60px;
+  height: .06em;
+  line-height: .06em;
   color: #204156;
   text-decoration: none;
 }
@@ -195,16 +211,21 @@ a:hover, a:focus {
   Home
   ========================================
 */
-
+/*
 .hero {
-  padding: 22px 80px 22px 80px;
+  padding: .023em .083em .083em .083em;
+  diplay: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
-
+*/
 .bio {
 
   margin: 0 auto;
-  float: left;
-  padding-top: 30px;
+  padding-top: .031em;
+  diplay: flex;
+  flex-direction: row;
+  justify-content: flex-start;
 
 }
 
@@ -223,21 +244,45 @@ html, body {
   font-weight: 300;
   line-height: 1.5;
 }
+/*
+.weird {
+}
 
 #projects {
 
-
   margin: 0 auto;
-  float: left;
-  padding-top: 20px;
-  clear: both;
+  width: 30em;
+  diplay: flex;
+  flex-direction: row;
 
 }
 
 #backtotop {
   color: white;
 }
+*/
 
+/*
+  ========================================
+  Media Responsivity
+  ========================================
+*/
 
+@media only screen and (max-width: 500px) {
+    body {
+        width:20%;
+    }
 
+    .container {
+      padding-left: 2em;
+      padding-right: 2em;
+      width: 30em;
+    }
 
+    .harryimage {
+
+      width: 40%;
+
+    }
+
+}
