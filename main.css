@@ -333,6 +333,16 @@ html, body {
   flex-direction: row;
 
 }
+
+.weatherIcon {
+  max-width: 8em;
+  border: 1px solid black;
+}
+
+.quotesIcon {
+  max-width: 10em;
+  border: 1px solid black;
+}
 /*
 
 #backtotop {
@@ -485,6 +495,16 @@ p {
   flex-direction: row;
   justify-content: center;
   padding-left: 0em;
+}
+
+.weatherIcon {
+  max-width: 5em;
+  border: 1px solid black;
+}
+
+.quotesIcon {
+  max-width: 6em;
+  border: 1px solid black;
 }
 
 }
