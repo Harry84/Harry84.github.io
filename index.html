@@ -1,4 +1,6 @@
 
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,21 +8,24 @@
     <meta charset="utf-8">
     <title>Harry's Pages</title>
     <link rel="stylesheet" href="main.css">
+    <meta name=viewport content="width=device-width, initial-scale=1">
   </head>
+
+<!--<div class="container">-->
 
   <body id="top">
 
-    <header class="container"><!--the header element, like it sounds, is used to identify the top of a page, article, section, or other segment of a page. In general, it may include a heading, introductory text, and even navigation.-->
+  <div id="fishermanBackground">
+
+    <header>
 
 
-        <h1 class="page-title">Harry Adams Github Page
+        <h1 class="page-title">Harry Adams Page
         </h1>
 
 
 
-      <nav><!--element identifies a section of major navigational links on a page. The <nav> element should be reserved for primary navigation sections only, such as global navigation, a table of contents, previous/next links, or other noteworthy groups of navigational links.
-
-      Most commonly, links included within the <nav> element will link to other pages within the same website or to parts of the same web page. Miscellaneous one-off links should not be wrapped within the <nav> element; they should use the anchor element, <a>, and the anchor element alone.-->
+      <nav>
 
       <ul>
         <li><a href="index.html"><b>About</b></a></li>
@@ -29,10 +34,7 @@
       <div class="contact-btn"><a href="mailto:harry.leventon@gmail.com?" target="_blank">Contact</a>
       </div>
 
-        <!--Links pointing to other pages of the same website will have a relative path, which does not include the domain (.com, .org, .edu, etc.)-->
-        <!--A link to Google would need the href attribute value of http://google.com, starting with http and including the domain, .com in this case.-->
 
-        <!--To trigger the action of opening a link in a new window, use the target attribute with a value of _blank. The target attribute determines exactly where the link will be displayed, and the _blank value specifies a new window.-->
 
 
       </nav>
@@ -43,13 +45,11 @@
         <section class="container">
 
           <section class="bio">
-            <p>Harry Adams is a musician/producer turned web developer.  He studied Astronomy at University College London before going on to pursue a career in music.  He currently has several tracks he has cowritten published on Audio Network which you can listen to <a href="https://www.audionetwork.com/track/searchkeyword?keyword=harry+adams&sort=1">here</a> and continues to write and produce in his spare time.</p>
-            <img class="harryimage" src="assets/HarryAdams 2.jpeg" alt="Harry Photo">
-            <p>He would like to develop apps that help others to learn or express themselves, be that in music, maths or some other discipline.</p>
+            <p>Harry Adams is a musician/producer turned web developer.  He studied Astronomy at University College London before going on to pursue a career in music.  He currently has several tracks he has cowritten published on Audio Network which you can listen to <a href="https://www.audionetwork.com/track/searchkeyword?keyword=harry+adams&sort=1">here</a> and continues to write and produce in his spare time.</p><img class="harryimage" src="assets/HarryAdams 2.jpeg" alt="Harry Photo"><p>He would like to develop apps that help others to learn or express themselves, be that in music, maths or some other discipline.</p>
             <p>Harry has a firm intention to develop tech that along with a having a human interest at heart, will help preserve and protect the planet and all living things.  In his mind, those two aims are inextricably linked.  As such, he'd like to get involved in the "Tech for Good" movement working in collaboration with/on behalf of charities and non-for-profits.
             </p>
 
-            <p>Examples from his personal music projects can be found on his <a href="http//www.soundcloud.com/harryleventon"><br>soundcloud</a>
+            <p>Examples from his personal music projects can be found on his <a href="http//www.soundcloud.com/harryleventon">soundcloud</a>
 
             <p>Currently Harry is teaching himself Javascript using several great online resources including:<br/>
             <br/>
@@ -61,41 +61,65 @@
 
           </section>
 
-          <section id="projects">
-
-            <p><h2><strong>Projects section coming soon!</strong></h2>
-            </p>
-            </section>
 
 
-        </section>
 
 
-        <article><!--The <article> element is used to identify a section of independent, self-contained content that may be independently distributed or reused. We’ll often use the <article> element to mark up blog posts, newspaper articles, user-submitted content, and the like.-->
-        </article>
 
-        <section class="container"><!--If the content adds to the document outline and represents a thematic group of content, use the <section> element.-->
+        <!--
+          <footer class="weird">
 
-          <section class="container1nopad">
-          <a href="#top" id="backtotop">Back to top</a>
-          </section>
-          <!--we can place an id attribute value of top on the <body> element. Now we can create an anchor element with an href attribute value of #top, pound sign and all, to link to the beginning of the <body> element.-->
 
-       </section>
+            <small>&copy;Harry Adams Page</small>
 
-        <div><!--is used when the content is being grouped solely for styling purposes and doesn't contribute to the semantic outline of the documents structure-->
-        </div>
 
-        <aside><!--all structural elements including this one are block level and appear on a new line occupying the full available width of the page or of the element they are nested in.  <aside> holds content (sidebars, inserts, brief explanations)-->
-        </aside>
+          </footer>
 
-    <footer class="container">
+-->
 
-      <section class="container1nopad"
-      <small>&copy;<!--the ampersand to the left followed by semi-colon is a unique encoding--> Harry Adams Page</small>
-      </section>
 
-    </footer>
+</div>
+
+
+ <div id="projectsBackground">
+
+              <section class="container" id="projects">
+
+                      <table>
+
+                      <thead>
+
+                          <th class="typewriter" id="tableHead">Recent Projects:</th>
+
+                      </thead>
+
+                      <tbody id="tableBody">
+                          <tr>
+                            <td><p class="typewriter" id="appTitle">Weather App</p><p data-height="440" data-theme-id="0" data-slug-hash="ObpgjX" data-default-tab="result" data-user="harryadams" data-embed-version="2" data-pen-title="Show the Local Weather" class="codepen">See the Pen <a href="http://codepen.io/harryadams/pen/ObpgjX/">Show the Local Weather</a> by Harry (<a href="http://codepen.io/harryadams">@harryadams</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script></td>
+                              <td></td>
+                              <td></td>
+                          </tr>
+
+                          <tr>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                          </tr>
+
+                          <tr>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                          </tr>
+
+
+                     </tbody>
+
+                 </table>
+
+               </section>
+ </div>
 
 
 
