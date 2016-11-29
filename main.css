@@ -224,7 +224,6 @@ td {
   cursor: pointer;
   margin-right: .05em;
   padding: .3em .4em;
-  border: 1px solid #204156;
   position: relative;
 
 }
@@ -343,6 +342,13 @@ html, body {
   max-width: 10em;
   border: 1px solid black;
 }
+
+#tableHead {
+
+  padding-left: .5em;
+
+
+}
 /*
 
 #backtotop {
@@ -398,7 +404,7 @@ html, body {
 .bio {
   margin-right: 3em;
   padding-top: .031em;
-  padding-bottom: 2em;
+  padding-bottom: 4em;
   diplay: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -482,10 +488,12 @@ p {
 
 #tableHead {
   padding-top: 2em;
+  padding-left: .5em;
   diplay: flex;
   flex-direction: column;
-  justify-content: center;;
+  justify-content: center;
   font-size: 2em;
+
 
 }
 
